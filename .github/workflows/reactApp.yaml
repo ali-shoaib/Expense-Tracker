@@ -31,6 +31,6 @@ jobs:
     - name: Install surge
       run: npm install -g surge
     - name: Surge building
-      run: surge ./ etbyalee.surge.sh --token ${{secrets.ET}}           
+      run: surge ./build etbyalee.surge.sh --token ${{secrets.ET}}           
 
     

@@ -24,11 +24,11 @@ jobs:
       
     # Runs a single command using the runners shell
     - name: installing NodeJS
-    - uses: actions/setup-node@v2-beta
+      uses: actions/setup-node@v2-beta
       with:
         node-version: 12
     - name: Installing yarn
-    - uses: borales/actions-yarn@v2.0.0
+      uses: borales/actions-yarn@v2.0.0
       with:
           cmd: install # will run `yarn install` command
     - name: Build ET

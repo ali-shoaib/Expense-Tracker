@@ -1,1 +1,4 @@
-An expense-tracker application made by using useReducer hook and context API.
+An expense-tracker application made on React by using useReducer hook and context API.
+Deployed through surge.
+
+Surge Url: etbyalee.surge.sh
